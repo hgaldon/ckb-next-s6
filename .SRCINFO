@@ -1,0 +1,15 @@
+pkgbase = ckb-next-s6
+    pkgdesc = s6 service for ckb-next
+    pkgver = 1.0.0
+    pkgrel = 1
+    url = https://github.com/hgaldon/ckb-next-s6
+    arch = i686
+    arch = x86_64
+    arch = pentium4
+    license = GPL-3.0-or-later
+    depends = s6
+    depends = ckb-next
+    source = ckb-next-s6-1.0.0.tar.gz::https://github.com/hgaldon/ckb-next-s6
+    sha256sums = 3dd442547211b8ee184c169d469297317c4e175fd33b11aa3bd04b757cb5d127
+
+pkgname = ckb-next-s6
